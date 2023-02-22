@@ -1,0 +1,40 @@
+.oneTask{
+    border: 2px solid #566885;
+    width: 100vw;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 4vw;
+    display: flex;
+}
+.oneTask:hover{
+    padding: 11px;
+    font-size: 3vw;
+}
+.times{
+    display: block;
+    font-size: 2vw;
+    width: 20vw;
+    margin-left: 20vw;
+}
+@media screen and (max-width: 850px) {
+    .oneTask{
+        border: 2px solid #566885;
+        width: 80vw;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        font-size: 2vw;
+        display: flex;
+    }
+    .oneTask:hover{
+        padding: 11px;
+        font-size: 3vw;
+    }
+    .times{
+        display: block;
+        font-size: 2.5vw;
+        width: 30vw;
+        margin-left: 20vw;
+    }
+}
