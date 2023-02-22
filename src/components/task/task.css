@@ -1,0 +1,132 @@
+.main1{
+    display: flex;
+}
+.leftBox{
+    font-family: Georgia;
+    width: 40vw;
+    margin: 2vw;
+}
+.rightBox{
+    font-family: Georgia;
+    width: 50vw;
+    margin: 2vw;
+    font-size: 2.5vw;
+}
+.status{
+    padding: 2.5vw;
+    border: #566885 2px solid;
+    border-radius: 8px;
+    background-color: #92aad7;
+    font-size: 2.8vw;
+    margin: 1vw;
+}
+.status:hover{
+    font-size: 3.3vw;
+}
+.divHello{
+    margin-top: 20vh;
+}
+.add{
+    border: 2px solid #566885;
+    border-radius: 10px;
+    padding: 5px;
+}
+input{
+    font-size: 1.5vw;
+    border-radius: 10px;
+    font-family: Georgia;
+}
+button{
+    font-size: 1.5vw;
+    border-radius: 10px;
+    font-family: Georgia;
+}
+.addTask{
+    justify-self: end;
+}
+.oneTask1{
+    width: 40vw;
+    padding: 10px;
+    margin: 5px;
+    font-size: 2vw;
+    display: flex;
+}
+.description{
+    font-size: 1.5vw;
+}
+.subTasks{
+    font-size: 1.5vw;
+}
+.MainDiv{
+    height: 75vh;
+    flex: content-box;
+    overflow-y: scroll;
+}
+@media screen and (max-width: 850px) {
+    .main1{
+        display: block;
+    }
+    .leftBox{
+        font-family: Georgia;
+        width: 100vw;
+        margin: 1vw;
+        display: flex;
+    }
+    .rightBox{
+        font-family: Georgia;
+        width: 100vw;
+        margin: 2vw;
+        font-size: 2.5vw;
+    }
+    .status{
+        padding: 2.5vw;
+        border: #566885 2px solid;
+        border-radius: 8px;
+        background-color: #92aad7;
+        font-size: 3vw;
+        margin: 2vw;
+    }
+    .status:hover{
+        font-size: 3.5vw;
+    }
+    .divHello{
+        margin-top: 20vh;
+        font-size: 7vw;
+    }
+    .add{
+        border: 2px solid #566885;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    input{
+        font-size: 3vw;
+        border-radius: 10px;
+        font-family: Georgia;
+    }
+    button{
+        font-size: 3vw;
+        border-radius: 10px;
+        font-family: Georgia;
+    }
+    .addTask{
+        justify-self: end;
+    }
+    .oneTask1{
+        width: 100vw;
+        padding: 10px;
+        margin: 5px;
+        font-size: 4vw;
+        display: flex;
+    }
+    .description{
+        font-size: 3vw;
+    }
+    .subTasks{
+        font-size: 3vw;
+    }
+    .MainDiv{
+        height: 80vh;
+        flex: content-box;
+        overflow-y: scroll;
+    }
+}
